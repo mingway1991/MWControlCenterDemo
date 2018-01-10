@@ -38,11 +38,11 @@
 }
 
 - (void)toList {
-    [self toVCWithIdentifier:@"list"];
+    [self toVCWithIdentifier:@"list" fixParamsDict:@{}];
 }
 
 - (void)toDetail {
-    [self toVCWithIdentifier:@"detail"];
+    [self toVCWithIdentifier:@"detail" fixParamsDict:@{}];
 }
 
 #pragma mark -

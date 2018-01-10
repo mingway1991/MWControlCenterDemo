@@ -29,7 +29,7 @@
 		<key>detail</key>
 		<dict>
 			<key>is_fix</key>
-			<true/>
+			<false/>
 			<key>url</key>
 			<string>http://m.lvmama.com</string>
 			<key>type</key>

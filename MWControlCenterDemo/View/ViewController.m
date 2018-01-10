@@ -31,21 +31,20 @@
 }
 
 - (void)toMain {
-    //为了防止突发修复缺少参数，补穿的参数
-    self.fixParamsDict = @{@"str1":@"1",@"str2":@"2",@"str3":@"3"};
-    [self toVCWithIdentifier:@"main"];
+    NSDictionary *fixParamsDict = @{@"str1":@"1",@"str2":@"2",@"str3":@"3"};
+    [self toVCWithIdentifier:@"main" fixParamsDict:fixParamsDict];
 }
 
 - (void)toList {
-    [self toVCWithIdentifier:@"list"];
+    [self toVCWithIdentifier:@"list" fixParamsDict:@{}];
 }
 
 - (void)toDetail {
-    [self toVCWithIdentifier:@"detail"];
+    [self toVCWithIdentifier:@"detail" fixParamsDict:@{}];
 }
 
 - (void)toWeb {
-    [self toVCWithIdentifier:@"web"];
+    [self toVCWithIdentifier:@"web" fixParamsDict:@{}];
 }
 
 #pragma mark -

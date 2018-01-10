@@ -29,7 +29,7 @@
 }
 
 - (void)toDetail {
-    [self toVCWithIdentifier:@"detail"];
+    [self toVCWithIdentifier:@"detail" fixParamsDict:@{}];
 }
 
 #pragma mark -
