@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<dict>
+		<key>list</key>
+		<dict>
+			<key>is_fix</key>
+			<false/>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>push</string>
+			<key>vcName</key>
+			<string>ListViewController</string>
+		</dict>
+		<key>detail</key>
+		<dict>
+			<key>is_fix</key>
+			<false/>
+			<key>url</key>
+			<string></string>
+			<key>type</key>
+			<string>push</string>
+			<key>vcName</key>
+			<string>DetailViewController</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

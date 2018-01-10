@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A86F6B42005C1FC000E628D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A86F6AA2005C1FC000E628D /* Assets.xcassets */; };
+		7A86F6B82005C1FC000E628D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86F6B02005C1FC000E628D /* main.m */; };
+		7A86F6B92005C1FC000E628D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A86F6B12005C1FC000E628D /* AppDelegate.m */; };
+		7A86F6BA2005C1FC000E628D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7A86F6B22005C1FC000E628D /* Info.plist */; };
+		7AE568862005F4960051FACA /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE568722005F4960051FACA /* DetailViewController.m */; };
+		7AE568872005F4960051FACA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE568752005F4960051FACA /* ViewController.m */; };
+		7AE568882005F4960051FACA /* ViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE568762005F4960051FACA /* ViewController.plist */; };
+		7AE568892005F4960051FACA /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE568792005F4960051FACA /* WebViewController.m */; };
+		7AE5688A2005F4960051FACA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE5687D2005F4960051FACA /* BaseViewController.m */; };
+		7AE5688B2005F4960051FACA /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE568802005F4960051FACA /* MainViewController.m */; };
+		7AE5688C2005F4960051FACA /* MainViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE568822005F4960051FACA /* MainViewController.plist */; };
+		7AE5688D2005F4960051FACA /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AE568842005F4960051FACA /* ListViewController.m */; };
+		7AE56894200603280051FACA /* ListViewController.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE56893200603280051FACA /* ListViewController.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A86F68F2005C1CC000E628D /* MWDispatchRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MWDispatchRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A86F6A92005C1FC000E628D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7A86F6AA2005C1FC000E628D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A86F6B02005C1FC000E628D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7A86F6B12005C1FC000E628D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7A86F6B22005C1FC000E628D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7AE568722005F4960051FACA /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		7AE568732005F4960051FACA /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		7AE568752005F4960051FACA /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7AE568762005F4960051FACA /* ViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ViewController.plist; sourceTree = "<group>"; };
+		7AE568772005F4960051FACA /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7AE568792005F4960051FACA /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		7AE5687B2005F4960051FACA /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		7AE5687D2005F4960051FACA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		7AE5687E2005F4960051FACA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		7AE568802005F4960051FACA /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		7AE568812005F4960051FACA /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		7AE568822005F4960051FACA /* MainViewController.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MainViewController.plist; sourceTree = "<group>"; };
+		7AE568842005F4960051FACA /* ListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		7AE568852005F4960051FACA /* ListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		7AE5688F2005F4D80051FACA /* WebVCPassParamsProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebVCPassParamsProtocol.h; sourceTree = "<group>"; };
+		7AE568902005F6B60051FACA /* ListVCPassParamsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListVCPassParamsProtocol.h; sourceTree = "<group>"; };
+		7AE568912005F9810051FACA /* DetailVCPassParamsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailVCPassParamsProtocol.h; sourceTree = "<group>"; };
+		7AE568922005FA840051FACA /* MainVCPassParamsProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainVCPassParamsProtocol.h; sourceTree = "<group>"; };
+		7AE56893200603280051FACA /* ListViewController.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ListViewController.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A86F68C2005C1CC000E628D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A86F6862005C1CC000E628D = {
+			isa = PBXGroup;
+			children = (
+				7A86F6A82005C1FC000E628D /* MWDispatchRouterDemo */,
+				7A86F6902005C1CC000E628D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A86F6902005C1CC000E628D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A86F68F2005C1CC000E628D /* MWDispatchRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A86F6A82005C1FC000E628D /* MWDispatchRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7A86F6AA2005C1FC000E628D /* Assets.xcassets */,
+				7A86F6B02005C1FC000E628D /* main.m */,
+				7A86F6A92005C1FC000E628D /* AppDelegate.h */,
+				7A86F6B12005C1FC000E628D /* AppDelegate.m */,
+				7A86F6B22005C1FC000E628D /* Info.plist */,
+				7AE5687C2005F4960051FACA /* Base */,
+				7AE568742005F4960051FACA /* View */,
+				7AE5687F2005F4960051FACA /* Main */,
+				7AE568832005F4960051FACA /* List */,
+				7AE568712005F4960051FACA /* Detail */,
+				7AE568782005F4960051FACA /* WebView */,
+			);
+			path = MWDispatchRouterDemo;
+			sourceTree = "<group>";
+		};
+		7AE568712005F4960051FACA /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				7AE568732005F4960051FACA /* DetailViewController.h */,
+				7AE568722005F4960051FACA /* DetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		7AE568742005F4960051FACA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7AE568772005F4960051FACA /* ViewController.h */,
+				7AE568752005F4960051FACA /* ViewController.m */,
+				7AE568762005F4960051FACA /* ViewController.plist */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7AE568782005F4960051FACA /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5687B2005F4960051FACA /* WebViewController.h */,
+				7AE568792005F4960051FACA /* WebViewController.m */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+		7AE5687C2005F4960051FACA /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5688E2005F4D80051FACA /* Protocol */,
+				7AE5687E2005F4960051FACA /* BaseViewController.h */,
+				7AE5687D2005F4960051FACA /* BaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		7AE5687F2005F4960051FACA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7AE568812005F4960051FACA /* MainViewController.h */,
+				7AE568802005F4960051FACA /* MainViewController.m */,
+				7AE568822005F4960051FACA /* MainViewController.plist */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7AE568832005F4960051FACA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				7AE568852005F4960051FACA /* ListViewController.h */,
+				7AE568842005F4960051FACA /* ListViewController.m */,
+				7AE56893200603280051FACA /* ListViewController.plist */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		7AE5688E2005F4D80051FACA /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				7AE5688F2005F4D80051FACA /* WebVCPassParamsProtocol.h */,
+				7AE568902005F6B60051FACA /* ListVCPassParamsProtocol.h */,
+				7AE568912005F9810051FACA /* DetailVCPassParamsProtocol.h */,
+				7AE568922005FA840051FACA /* MainVCPassParamsProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A86F68E2005C1CC000E628D /* MWDispatchRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A86F6A52005C1CC000E628D /* Build configuration list for PBXNativeTarget "MWDispatchRouterDemo" */;
+			buildPhases = (
+				7A86F68B2005C1CC000E628D /* Sources */,
+				7A86F68C2005C1CC000E628D /* Frameworks */,
+				7A86F68D2005C1CC000E628D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MWDispatchRouterDemo;
+			productName = MWDispatchRouter;
+			productReference = 7A86F68F2005C1CC000E628D /* MWDispatchRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A86F6872005C1CC000E628D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "驴妈妈";
+				TargetAttributes = {
+					7A86F68E2005C1CC000E628D = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7A86F68A2005C1CC000E628D /* Build configuration list for PBXProject "MWDispatchRouterDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A86F6862005C1CC000E628D;
+			productRefGroup = 7A86F6902005C1CC000E628D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A86F68E2005C1CC000E628D /* MWDispatchRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A86F68D2005C1CC000E628D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86F6BA2005C1FC000E628D /* Info.plist in Resources */,
+				7A86F6B42005C1FC000E628D /* Assets.xcassets in Resources */,
+				7AE5688C2005F4960051FACA /* MainViewController.plist in Resources */,
+				7AE568882005F4960051FACA /* ViewController.plist in Resources */,
+				7AE56894200603280051FACA /* ListViewController.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A86F68B2005C1CC000E628D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A86F6B82005C1FC000E628D /* main.m in Sources */,
+				7AE568892005F4960051FACA /* WebViewController.m in Sources */,
+				7AE5688D2005F4960051FACA /* ListViewController.m in Sources */,
+				7AE5688B2005F4960051FACA /* MainViewController.m in Sources */,
+				7A86F6B92005C1FC000E628D /* AppDelegate.m in Sources */,
+				7AE568862005F4960051FACA /* DetailViewController.m in Sources */,
+				7AE5688A2005F4960051FACA /* BaseViewController.m in Sources */,
+				7AE568872005F4960051FACA /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7A86F6A32005C1CC000E628D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7A86F6A42005C1CC000E628D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A86F6A62005C1CC000E628D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MWDispatchRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lvmama.MWDispatchRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7A86F6A72005C1CC000E628D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MWDispatchRouterDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Lvmama.MWDispatchRouter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A86F68A2005C1CC000E628D /* Build configuration list for PBXProject "MWDispatchRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A86F6A32005C1CC000E628D /* Debug */,
+				7A86F6A42005C1CC000E628D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A86F6A52005C1CC000E628D /* Build configuration list for PBXNativeTarget "MWDispatchRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A86F6A62005C1CC000E628D /* Debug */,
+				7A86F6A72005C1CC000E628D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A86F6872005C1CC000E628D /* Project object */;
+}
